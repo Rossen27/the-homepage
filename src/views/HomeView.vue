@@ -27,21 +27,21 @@
                 <div class="carousel-item active" data-bs-interval="10000">
                     <img src="https://picsum.photos/1500/800?random=1" class="d-block h-50" alt="..." />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
+                        <h5>公司願景</h5>
                         <p>Some representative placeholder content for the first slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
                     <img src="https://picsum.photos/1500/800?random=2" class="d-block h-50" alt="..." />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
+                        <h5>公司理念</h5>
                         <p>Some representative placeholder content for the second slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="https://picsum.photos/1500/800?random=3" class="d-block h-50" alt="..." />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
+                        <h5>最終結果</h5>
                         <p>Some representative placeholder content for the third slide.</p>
                     </div>
                 </div>
