@@ -1,30 +1,149 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <router-link to="/" class="navbar-brand">Home</router-link>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <router-link to="/about" class="nav-link active">公司介紹</router-link>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >服務宣告</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <router-link to="/about">
+                                    <div class="dropdown-item" href="#">服務條款</div>
+                                </router-link>
+                            </li>
+                            <li>
+                                <router-link to="/about">
+                                    <div class="dropdown-item" href="#">隱私政策</div>
+                                </router-link>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <router-link to="/about">
+                                    <div class="dropdown-item" href="#">著作權/智慧財產權</div>
+                                </router-link>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >產品</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <router-link to="/about">
+                                    <div class="dropdown-item" href="#">產品服務</div>
+                                </router-link>
+                            </li>
+                            <li>
+                                <router-link to="/about">
+                                    <div class="dropdown-item" href="#">產品下載</div>
+                                </router-link>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <router-link to="/about">
+                                    <div class="dropdown-item" href="#">結果</div>
+                                </router-link>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >付款</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <router-link to="/about">
+                                    <div class="dropdown-item" href="#">購買商品</div>
+                                </router-link>
+                            </li>
+                            <li>
+                                <router-link to="/about">
+                                    <div class="dropdown-item" href="#">付款頁面</div>
+                                </router-link>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <router-link to="/about">
+                                    <div class="dropdown-item" href="#">結果</div>
+                                </router-link>
+                            </li>
+                        </ul>
+                    </li>
+                    <router-link to="/" class="nav-link active">聯絡我們</router-link>
+                </ul>
+                <form class="d-flex">
+                    <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="Search"
+                        aria-label="Search"
+                    />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <router-view />
 </template>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
 }
 
 nav {
-  padding: 30px;
+    padding: 30px;
 }
 
 nav a {
-  font-weight: bold;
-  color: #2c3e50;
+    font-weight: bold;
+    color: #2c3e50;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+    color: #42b983;
 }
 </style>
