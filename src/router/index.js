@@ -13,7 +13,8 @@ const routes = [
     component: function () {
       return import('../views/AboutView.vue')
     }
-  }
+  },
+  
 ]
 
 const router = createRouter({
