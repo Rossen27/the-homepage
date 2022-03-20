@@ -32,7 +32,7 @@ export default {
 body {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 10px;
-    color: #fff;
+    color: LightGray;
 }
 .footer #button {
     width: 35px;
