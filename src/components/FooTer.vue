@@ -31,7 +31,7 @@ export default {
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
 body {
     font-family: "Source Sans Pro", sans-serif;
-    font-weight: 10px;
+    font-weight: 5px;
     color: LightGray;
 }
 .footer #button {
@@ -49,7 +49,7 @@ body {
 }
 .footer #button:hover {
     width: 10x;
-    height: 10px;
+    height: 1em;
     border: #3a3a3a 12px solid;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
@@ -71,7 +71,7 @@ body {
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
     transition: all 1s ease;
-    z-index: 999;
+    z-index: auto;
 }
 .footer:hover {
     -webkit-transition: all 1s ease;
@@ -82,12 +82,12 @@ body {
     height: 20em;
 }
 .footer #container {
-    margin-top: 5px;
+    margin-top: 1px;
     width: 100%;
     height: 100%;
     position: relative;
-    top: 0;
-    left: 0;
+    /* top: 0;
+    left: 0; */
     background: #3a3a3a;
 }
 .footer #cont {
@@ -99,7 +99,7 @@ body {
     margin: 0 auto;
 }
 .footer_center {
-    width: 500px;
+    width: 50px;
     float: left;
     text-align: center;
 }

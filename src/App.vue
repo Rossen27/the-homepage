@@ -1,10 +1,12 @@
 <template>
     <div>
-        <Navbar />
         <div>
+            <Navbar />
             <div>
                 <div>
-                    <router-view></router-view>
+                    <div>
+                        <router-view></router-view>
+                    </div>
                 </div>
             </div>
         </div>
@@ -28,7 +30,7 @@ export default {
 <style>
 html,
 body {
-  height: 100%;
-  background: #f2f6fa;
+    height: 100%;
+    background: #f2f6fa;
 }
 </style>
