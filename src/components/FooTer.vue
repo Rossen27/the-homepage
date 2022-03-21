@@ -104,6 +104,7 @@ body {
     text-align: center;
 }
 .footer h3 {
+    color: lightgrey;
     font-family: "Helvetica";
     font-size: 15px;
     font-weight: 100px;
