@@ -9,9 +9,9 @@
                     </div>
                 </div>
             </div>
+            <FooTer />
         </div>
     </div>
-    <FooTer />
 </template>
 
 <script>
