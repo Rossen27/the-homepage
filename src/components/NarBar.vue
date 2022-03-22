@@ -29,12 +29,12 @@
                         >服務宣告</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
-                                <router-link to="/about">
+                                <router-link to="/serve1">
                                     <div class="dropdown-item" href="#">服務條款</div>
                                 </router-link>
                             </li>
                             <li>
-                                <router-link to="/about">
+                                <router-link to="/serve2">
                                     <div class="dropdown-item" href="#">隱私政策</div>
                                 </router-link>
                             </li>
@@ -42,7 +42,7 @@
                                 <hr class="dropdown-divider" />
                             </li>
                             <li>
-                                <router-link to="/about">
+                                <router-link to="/serve3">
                                     <div class="dropdown-item" href="#">著作權/智慧財產權</div>
                                 </router-link>
                             </li>
