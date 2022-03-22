@@ -1,5 +1,5 @@
 <template>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <router-link to="/" class="navbar-brand">Home</router-link>
             <button
@@ -56,11 +56,11 @@
                             role="button"
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
-                        >產品</a>
+                        >會員中心</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
-                                <router-link to="/about">
-                                    <div class="dropdown-item" href="#">產品服務</div>
+                                <router-link to="/userInfo">
+                                    <a href @click.prevent="logout" class="dropdown-item">Logout</a>
                                 </router-link>
                             </li>
                             <li>
@@ -79,7 +79,14 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">付款</a>
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >付款</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
                                 <router-link to="/about">
@@ -116,3 +123,13 @@
         </div>
     </nav>
 </template>
+<script>
+export default {
+    methods: {
+        logout() {
+            localStorage.removeItem('token');
+            this.$router.push('/login');
+        }
+    }
+}
+</script>
