@@ -11,3 +11,4 @@ import Carousel from "v3-carousel";
 
 
 createApp(App).use(store).use(router).use(Carousel).mount('#app')
+

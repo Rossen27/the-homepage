@@ -5,7 +5,6 @@
             <div>
                 <div>
                     <div>
-                        
                         <router-view></router-view>
                     </div>
                 </div>
@@ -16,6 +15,7 @@
 </template>
 
 <script>
+
 import Navbar from '../src/components/NarBar.vue'
 import FooTer from '../src/components/FooTer.vue'
 export default {
