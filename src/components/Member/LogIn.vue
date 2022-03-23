@@ -77,7 +77,7 @@
 <style>
 body {
     margin: 0;
-    color: #6a6f8c;
+    color: #ffffff;
     background: #c8c8c8;
     font: 600 16px/18px "Open Sans", sans-serif;
 }
