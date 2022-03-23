@@ -41,5 +41,3 @@
     </figure>
 </template>
 
-<style>
-</style>
