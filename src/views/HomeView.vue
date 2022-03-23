@@ -1,9 +1,5 @@
 <template>
-<div>
-    <body>
         <HomePage />
-    </body>
-</div>
 </template>
 
 <script>

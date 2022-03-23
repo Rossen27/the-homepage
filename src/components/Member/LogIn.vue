@@ -24,7 +24,7 @@
                             <span class="icon"></span> Keep me Signed in
                         </label>
                     </div>
-                                        <div class="google">
+                    <div class="google center">
                         <form action="?" method="POST">
                             <div
                                 class="g-recaptcha"
