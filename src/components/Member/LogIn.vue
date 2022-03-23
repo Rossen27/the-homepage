@@ -50,3 +50,15 @@ export default {
     }
 }
 </script>
+<style scoped>
+.col-lg-3 .btn {
+    border-width: 2px 3px 2px 5px;
+    border-radius: 90% 6% 93% 5% / 5% 94% 7% 95%;
+    /* 做出傾斜的視覺感 */
+    transform: rotate(2deg);
+    border: dashed black 2px;
+    transform: rotate(-2deg);
+    /* 將傾斜的部分修正 */
+}
+
+</style>
