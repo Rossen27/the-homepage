@@ -39,5 +39,6 @@
             <cite title="Source Title">Pediatrician</cite>
         </figcaption>
     </figure>
+
 </template>
 

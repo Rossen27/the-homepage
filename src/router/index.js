@@ -40,6 +40,13 @@ const routes = [
     path: '/login',
     component: Login
   },
+  {
+    path:'/productpage',
+    name: 'productpage',
+    component: function () {
+      return import('../components/Member/ProductPage.vue')
+    }
+  },
   
 ]
 

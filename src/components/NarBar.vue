@@ -64,7 +64,7 @@
                                 </router-link>
                             </li>
                             <li>
-                                <router-link to="/about">
+                                <router-link to="/productpage">
                                     <div class="dropdown-item" href="#">產品下載</div>
                                 </router-link>
                             </li>
