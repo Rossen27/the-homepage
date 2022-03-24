@@ -8,6 +8,7 @@ import './../node_modules/bulma/css/bulma.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
 import Carousel from "v3-carousel";
+import './index.css'
 
 
 createApp(App).use(store).use(router).use(Carousel).mount('#app')
