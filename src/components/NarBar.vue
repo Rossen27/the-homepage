@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <div class="container-fluid">
             <router-link to="/" class="navbar-brand"><img src="https://rossen.w3spaces.com/Logomark_-_White.png?bypass-cache=22383025" width="50" /></router-link>
             <button
